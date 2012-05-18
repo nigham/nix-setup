@@ -10,8 +10,9 @@ filetype indent on
 let mapleader = ","
 let g:mapleader = ","
 
-" Fast saving
-nmap <leader>w :w!<cr>
+" Fast saving and quitting
+nmap <leader>w :w<cr>
+nmap <leader>q :q<cr>
 
 set hlsearch "Highlight search things
 set incsearch "Make search act like search in modern browsers
