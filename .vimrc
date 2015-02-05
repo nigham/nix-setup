@@ -1,6 +1,8 @@
 " .vimrc (Anshul Nigham)
 " Most of the below is customized from http://amix.dk/vim/vimrc.html
 
+set nocompatible
+
 " Enable filetype plugin
 filetype plugin on
 filetype indent on
@@ -21,6 +23,7 @@ set incsearch "Make search act like search in modern browsers
 set showmatch
 
 set number
+set relativenumber
 syntax on
 
 set expandtab
