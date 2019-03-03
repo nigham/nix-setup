@@ -16,6 +16,9 @@ let g:mapleader = ","
 nmap <leader>w :w<cr>
 nmap <leader>q :q<cr>
 
+au FileType go nmap <leader>r :GoRun<cr>
+au FileType go nmap <leader>b :GoBuild<cr>
+
 set hlsearch "Highlight search things
 set incsearch "Make search act like search in modern browsers
 

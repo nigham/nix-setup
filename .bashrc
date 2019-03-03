@@ -21,3 +21,5 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 alias ll='ls -alF'
+alias b='bazel build -c opt :all'
+alias t='bazel test -c opt :all'
