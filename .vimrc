@@ -141,3 +141,5 @@ vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
 " Allow backspace / delete over anything
 set backspace=indent,eol,start
+
+let g:miniBufExplVSplit = 40   " column width in chars
