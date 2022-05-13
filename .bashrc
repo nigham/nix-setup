@@ -4,6 +4,9 @@ export PS1="\[\e[00;32m\]\u@\[\e[0m\]\[\e[00;33m\]\h\[\e[0m\]\[\e[00;32m\]:\[\e[
 #Editor
 export EDITOR="vim"
 
+# Enable colors on MacOS.
+export CLICOLOR=1
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
