@@ -146,3 +146,4 @@ let g:miniBufExplVSplit = 40   " column width in chars
 
 " Allow switching between buffers without saving.
 set hidden
+colorscheme desert
