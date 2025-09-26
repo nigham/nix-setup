@@ -1,4 +1,5 @@
 " .vimrc (Anshul Nigham)
+"
 " Most of the below is customized from http://amix.dk/vim/vimrc.html
 
 set nocompatible
