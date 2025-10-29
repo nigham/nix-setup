@@ -8,3 +8,5 @@ Xmodmap
 
 Mapping Caps Lock to Escape (useful for vim). To use in Ubuntu, add as a
 Startup application the following command: `xmodmap $HOME/.Xmodmap`
+
+Last updated 2025-10-28
