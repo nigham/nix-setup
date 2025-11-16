@@ -23,7 +23,5 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-alias ll='ls -alF'
-alias b='bazel build -c opt :all'
-alias t='bazel test -c opt :all'
+source $HOME/.sh_aliases
 . "$HOME/.cargo/env"
